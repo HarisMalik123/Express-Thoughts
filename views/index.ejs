@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="w-full min-h-screen bg-zinc-900 text-white p-10">
+    <h3 class="text-3xl font-bold mb-4">Create Account</h3>
+    <form action="/register" class="flex flex-col space-y-4" method="post" >
+        <input class="px-3 py-2 outline-none  transition-all duration-500 ease-in-out hover:outline-blue-500 hover:outline-4 bg-transparent border-2 border-zinc-500 rounded-md" type="text" name="name" placeholder="Enter Name">
+        <input class="px-3 py-2 outline-none  transition-all duration-500 ease-in-out hover:outline-blue-500 hover:outline-4 bg-transparent border-2 border-zinc-500 rounded-md" type="text" name="username" placeholder="Enter UserName">
+
+       
+
+        <input class="px-3 py-2 outline-none  transition-all duration-500 ease-in-out hover:outline-blue-500 hover:outline-4 bg-transparent border-2 border-zinc-500 rounded-md" type="email" name="email" placeholder="Enter email">
+
+        <input class="px-3 py-2 outline-none  transition-all duration-500 ease-in-out hover:outline-blue-500 hover:outline-4 bg-transparent border-2 border-zinc-500 rounded-md" type="password" name="password" placeholder="Enter password">
+        <input class="px-3 py-2 outline-none  transition-all duration-500 ease-in-out hover:outline-blue-500 hover:outline-4 bg-transparent border-2 border-zinc-500 rounded-md" type="number" name="age" placeholder="Enter age">
+    
+        <input class="px-5 py-2 rounded-md bg-blue-500 text-sm" type="submit" value="Create Account">
+
+    </form>
+</div>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
